@@ -25,7 +25,10 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("GitHub Details")),
+      appBar: AppBar(
+        title: const Text("GitHub Details"),
+        centerTitle: true,
+      ),
       body: SingleChildScrollView(
         child: Container(
           margin: EdgeInsets.only(
